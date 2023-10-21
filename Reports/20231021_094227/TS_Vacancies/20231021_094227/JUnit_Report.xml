@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Vacancies" time="126.417" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Vacancies" tests="2" failures="0" errors="0" time="126.417" skipped="0" timestamp="2023-10-21 09:42:51" hostname="winyeay - DESKTOP-ES8BCCF.mshome.net" id="Test Suites/TS_Vacancies">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227"/>
+         <property name="logFiles" value="C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227\\1697856237417.png, C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227\\1697856290125.png"/>
+         <property name="hostName" value="winyeay - DESKTOP-ES8BCCF.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.128.1"/>
+         <property name="sessionId" value="f621b846cdad14d8d1715c97c0b869f3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Vacancies/TC_Vacancies" time="70.808" classname="Test Cases/Vacancies/TC_Vacancies" status="PASSED">
+         <system-out><![CDATA[2023-10-21 09:42:53 - [TEST_CASE][PASSED] - Test Cases/Vacancies/TC_Vacancies: Test Cases/Vacancies/TC_Vacancies
+
+2023-10-21 09:42:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-21 09:43:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-21 09:43:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-21 09:43:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-21 09:43:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+2023-10-21 09:43:16 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2023-10-21 09:43:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-21 09:43:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-21 09:43:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-21 09:43:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-21 09:43:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-21 09:43:26 - [TEST_STEP][PASSED] - navigateToUrl("https://career.vasdev.co.id/login"): Navigate to 'https://career.vasdev.co.id/login' successfully
+
+2023-10-21 09:43:28 - [MESSAGE][PASSED] - Navigate to 'https://career.vasdev.co.id/login' successfully
+
+2023-10-21 09:43:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email"), "qa.testvascomm@gmail.com"): Text 'qa.testvascomm@gmail.com' is set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email'
+
+2023-10-21 09:43:36 - [MESSAGE][PASSED] - Text 'qa.testvascomm@gmail.com' is set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email'
+
+2023-10-21 09:43:36 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email")): Object: 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email' is right clicked on
+
+2023-10-21 09:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email' is right clicked on
+
+2023-10-21 09:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit")): Object: 'Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit' is clicked on
+
+2023-10-21 09:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit' is clicked on
+
+2023-10-21 09:43:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password"), "6XHz08Y29ykdB4CZ3GpyWg=="): Text ****** has been set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password'
+
+2023-10-21 09:43:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password'
+
+2023-10-21 09:43:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_EZ Recruit/button_Login")): Object: 'Object Repository/Login/Page_EZ Recruit/button_Login' is clicked on
+
+2023-10-21 09:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/button_Login' is clicked on
+
+2023-10-21 09:43:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+2023-10-21 09:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Vacancies/Page_Admin Page/a_Vacancies")): Object: 'Object Repository/Vacancies/Page_Admin Page/a_Vacancies' is clicked on
+
+2023-10-21 09:43:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Vacancies/Page_Admin Page/a_Vacancies' is clicked on
+
+2023-10-21 09:43:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Vacancies/Page_Admin Page/input_Filter_search"), vacancy): Text 'purchasing' is set on object 'Object Repository/Vacancies/Page_Admin Page/input_Filter_search'
+
+2023-10-21 09:43:53 - [MESSAGE][PASSED] - Text 'purchasing' is set on object 'Object Repository/Vacancies/Page_Admin Page/input_Filter_search'
+
+2023-10-21 09:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Vacancies/Page_Admin Page/button_Search")): Object: 'Object Repository/Vacancies/Page_Admin Page/button_Search' is clicked on
+
+2023-10-21 09:43:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Vacancies/Page_Admin Page/button_Search' is clicked on
+
+2023-10-21 09:43:54 - [TEST_STEP][PASSED] - if (vacancy == "purchasing"): Taking screenshot successfully
+
+2023-10-21 09:43:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Vacancies/VerifyObject/Page_Admin Page/td_Staf Purchasing")): Object 'Object Repository/Vacancies/VerifyObject/Page_Admin Page/td_Staf Purchasing' is visible
+
+2023-10-21 09:43:57 - [MESSAGE][PASSED] - Object 'Object Repository/Vacancies/VerifyObject/Page_Admin Page/td_Staf Purchasing' is visible
+
+2023-10-21 09:43:57 - [TEST_STEP][PASSED] - markPassed("Pass"): Pass
+
+2023-10-21 09:43:57 - [MESSAGE][PASSED] - Pass
+
+2023-10-21 09:43:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-10-21 09:44:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-10-21 09:44:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227\\1697856237417.png]]
+
+2023-10-21 09:44:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-21 09:44:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Vacancies/TC_Vacancies" time="53.085" classname="Test Cases/Vacancies/TC_Vacancies" status="PASSED">
+         <system-out><![CDATA[2023-10-21 09:44:04 - [TEST_CASE][PASSED] - Test Cases/Vacancies/TC_Vacancies: Test Cases/Vacancies/TC_Vacancies
+
+2023-10-21 09:44:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-21 09:44:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-21 09:44:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-21 09:44:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-21 09:44:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Login' successfully
+
+2023-10-21 09:44:11 - [TEST_CASE][PASSED] - Test Cases/Login/Login: Test Cases/Login/Login
+
+2023-10-21 09:44:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-21 09:44:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-21 09:44:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-21 09:44:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-21 09:44:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-21 09:44:19 - [TEST_STEP][PASSED] - navigateToUrl("https://career.vasdev.co.id/login"): Navigate to 'https://career.vasdev.co.id/login' successfully
+
+2023-10-21 09:44:27 - [MESSAGE][PASSED] - Navigate to 'https://career.vasdev.co.id/login' successfully
+
+2023-10-21 09:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email"), "qa.testvascomm@gmail.com"): Text 'qa.testvascomm@gmail.com' is set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email'
+
+2023-10-21 09:44:30 - [MESSAGE][PASSED] - Text 'qa.testvascomm@gmail.com' is set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email'
+
+2023-10-21 09:44:30 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email")): Object: 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email' is right clicked on
+
+2023-10-21 09:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_email' is right clicked on
+
+2023-10-21 09:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit")): Object: 'Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit' is clicked on
+
+2023-10-21 09:44:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/h3_EZ Recruit' is clicked on
+
+2023-10-21 09:44:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password"), "6XHz08Y29ykdB4CZ3GpyWg=="): Text ****** has been set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password'
+
+2023-10-21 09:44:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_EZ Recruit/input_EZ Recruit_password'
+
+2023-10-21 09:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_EZ Recruit/button_Login")): Object: 'Object Repository/Login/Page_EZ Recruit/button_Login' is clicked on
+
+2023-10-21 09:44:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_EZ Recruit/button_Login' is clicked on
+
+2023-10-21 09:44:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Login' successfully
+
+2023-10-21 09:44:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Vacancies/Page_Admin Page/a_Vacancies")): Object: 'Object Repository/Vacancies/Page_Admin Page/a_Vacancies' is clicked on
+
+2023-10-21 09:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Vacancies/Page_Admin Page/a_Vacancies' is clicked on
+
+2023-10-21 09:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Vacancies/Page_Admin Page/input_Filter_search"), vacancy): Text 'accounting' is set on object 'Object Repository/Vacancies/Page_Admin Page/input_Filter_search'
+
+2023-10-21 09:44:47 - [MESSAGE][PASSED] - Text 'accounting' is set on object 'Object Repository/Vacancies/Page_Admin Page/input_Filter_search'
+
+2023-10-21 09:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Vacancies/Page_Admin Page/button_Search")): Object: 'Object Repository/Vacancies/Page_Admin Page/button_Search' is clicked on
+
+2023-10-21 09:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Vacancies/Page_Admin Page/button_Search' is clicked on
+
+2023-10-21 09:44:48 - [TEST_STEP][PASSED] - if (vacancy == "purchasing"): null
+
+2023-10-21 09:44:48 - [TEST_STEP][PASSED] - else if (vacancy == "accounting"): Taking screenshot successfully
+
+2023-10-21 09:44:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Vacancies/VerifyObject/Page_Admin Page/td_Accounting Staf")): Object 'Object Repository/Vacancies/VerifyObject/Page_Admin Page/td_Accounting Staf' is visible
+
+2023-10-21 09:44:50 - [MESSAGE][PASSED] - Object 'Object Repository/Vacancies/VerifyObject/Page_Admin Page/td_Accounting Staf' is visible
+
+2023-10-21 09:44:50 - [TEST_STEP][PASSED] - markPassed("Pass"): Pass
+
+2023-10-21 09:44:50 - [MESSAGE][PASSED] - Pass
+
+2023-10-21 09:44:50 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2023-10-21 09:44:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-10-21 09:44:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\winyeay\\Katalon Studio\\vascomm_automation_test\\Reports\\20231021_094227\\TS_Vacancies\\20231021_094227\\1697856290125.png]]
+
+2023-10-21 09:44:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-21 09:44:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-21 09:42:51 - [TEST_SUITE][PASSED] - TS_Vacancies: Test Cases/Vacancies/TC_Vacancies]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

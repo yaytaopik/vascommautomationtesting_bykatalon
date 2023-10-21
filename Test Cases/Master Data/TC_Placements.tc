@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Placements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0d1eef2-614a-4ecc-9ceb-d26efb9f202e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99e8a00f-23d1-4f0c-b91e-8ae7f8a343bc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99e8a00f-23d1-4f0c-b91e-8ae7f8a343bc</id>
+      <masked>false</masked>
+      <name>placement</name>
+   </variable>
+</TestCaseEntity>

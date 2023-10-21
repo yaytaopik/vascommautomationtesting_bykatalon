@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Placement,Chrome 118.0.0.0,,,2023-10-21 09:17:30,2023-10-21 09:23:32,6m - 1.980s,PASSED
+,,,,,,,
+Test Cases/Master Data/TC_Placements,Chrome 118.0.0.0,,,2023-10-21 09:17:32,2023-10-21 09:19:59,2m - 26.957s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 09:17:35,2023-10-21 09:17:51,16.246s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 09:17:51,2023-10-21 09:19:12,1m - 21.668s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/span_Master Data""))",Chrome 118.0.0.0,,,2023-10-21 09:19:12,2023-10-21 09:19:17,4.376s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/a_Placements""))",Chrome 118.0.0.0,,,2023-10-21 09:19:17,2023-10-21 09:19:26,9.575s,PASSED
+"setText(findTestObject(""Object Repository/Placement/Page_Admin Page/input_Add New Placement_search""), placement)",Chrome 118.0.0.0,,,2023-10-21 09:19:26,2023-10-21 09:19:33,6.476s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 09:19:33,2023-10-21 09:19:37,3.845s,PASSED
+"if (placement == ""jakarta"")",Chrome 118.0.0.0,,,2023-10-21 09:19:37,2023-10-21 09:19:51,14.308s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 09:19:51,2023-10-21 09:19:59,7.667s,PASSED
+,,,,,,,
+Test Cases/Master Data/TC_Placements,Chrome 118.0.0.0,,,2023-10-21 09:19:59,2023-10-21 09:22:06,2m - 6.870s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 09:19:59,2023-10-21 09:20:10,10.912s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 09:20:10,2023-10-21 09:21:10,59.799s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/span_Master Data""))",Chrome 118.0.0.0,,,2023-10-21 09:21:10,2023-10-21 09:21:12,1.763s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/a_Placements""))",Chrome 118.0.0.0,,,2023-10-21 09:21:12,2023-10-21 09:21:21,8.706s,PASSED
+"setText(findTestObject(""Object Repository/Placement/Page_Admin Page/input_Add New Placement_search""), placement)",Chrome 118.0.0.0,,,2023-10-21 09:21:21,2023-10-21 09:21:28,6.880s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 09:21:28,2023-10-21 09:21:33,5.290s,PASSED
+"if (placement == ""jakarta"")",Chrome 118.0.0.0,,,2023-10-21 09:21:33,2023-10-21 09:21:33,0.004s,PASSED
+"else if (placement == ""waru"")",Chrome 118.0.0.0,,,2023-10-21 09:21:33,2023-10-21 09:21:41,7.674s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 09:21:41,2023-10-21 09:22:06,25.488s,PASSED
+,,,,,,,
+Test Cases/Master Data/TC_Placements,Chrome 118.0.0.0,,,2023-10-21 09:22:06,2023-10-21 09:23:32,1m - 25.180s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 09:22:07,2023-10-21 09:22:14,7.657s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 09:22:14,2023-10-21 09:22:52,37.784s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/span_Master Data""))",Chrome 118.0.0.0,,,2023-10-21 09:22:52,2023-10-21 09:22:54,2.318s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/a_Placements""))",Chrome 118.0.0.0,,,2023-10-21 09:22:55,2023-10-21 09:23:00,5.529s,PASSED
+"setText(findTestObject(""Object Repository/Placement/Page_Admin Page/input_Add New Placement_search""), placement)",Chrome 118.0.0.0,,,2023-10-21 09:23:00,2023-10-21 09:23:04,3.879s,PASSED
+"click(findTestObject(""Object Repository/Placement/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 09:23:04,2023-10-21 09:23:07,2.622s,PASSED
+"if (placement == ""jakarta"")",Chrome 118.0.0.0,,,2023-10-21 09:23:07,2023-10-21 09:23:07,0.001s,PASSED
+"else if (placement == ""waru"")",Chrome 118.0.0.0,,,2023-10-21 09:23:07,2023-10-21 09:23:07,0.001s,PASSED
+"else if (placement == ""malang"")",Chrome 118.0.0.0,,,2023-10-21 09:23:07,2023-10-21 09:23:14,7.827s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 09:23:14,2023-10-21 09:23:31,17.106s,PASSED

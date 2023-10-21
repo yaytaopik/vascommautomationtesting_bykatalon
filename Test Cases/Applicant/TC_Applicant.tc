@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Applicant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b18b0afe-0b73-4f60-a1e1-468ea1a425c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa12a5eb-01c0-4336-9f53-72dda09fe393</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa12a5eb-01c0-4336-9f53-72dda09fe393</id>
+      <masked>false</masked>
+      <name>applicantName</name>
+   </variable>
+</TestCaseEntity>

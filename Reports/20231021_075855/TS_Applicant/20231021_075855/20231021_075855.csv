@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Applicant,Chrome 118.0.0.0,,,2023-10-21 07:59:18,2023-10-21 08:01:19,2m - 1.736s,FAILED
+,,,,,,,
+Test Cases/Applicant/TC_Applicant,Chrome 118.0.0.0,,,2023-10-21 07:59:20,2023-10-21 08:00:09,49.084s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 07:59:21,2023-10-21 07:59:34,12.560s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 07:59:34,2023-10-21 07:59:57,23.070s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/span_Applicants""))",Chrome 118.0.0.0,,,2023-10-21 07:59:57,2023-10-21 08:00:00,2.824s,PASSED
+"setText(findTestObject(""Object Repository/Applicant/Page_Admin Page/input_Filter_search""), applicantName)",Chrome 118.0.0.0,,,2023-10-21 08:00:00,2023-10-21 08:00:02,1.960s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 08:00:02,2023-10-21 08:00:02,0.742s,PASSED
+"if (applicantName == ""kiki"")",Chrome 118.0.0.0,,,2023-10-21 08:00:02,2023-10-21 08:00:07,5.008s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 08:00:07,2023-10-21 08:00:09,1.407s,PASSED
+,,,,,,,
+Test Cases/Applicant/TC_Applicant,Chrome 118.0.0.0,,,2023-10-21 08:00:09,2023-10-21 08:00:44,35.107s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 08:00:09,2023-10-21 08:00:13,3.793s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 08:00:13,2023-10-21 08:00:33,20.473s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/span_Applicants""))",Chrome 118.0.0.0,,,2023-10-21 08:00:33,2023-10-21 08:00:37,3.380s,PASSED
+"setText(findTestObject(""Object Repository/Applicant/Page_Admin Page/input_Filter_search""), applicantName)",Chrome 118.0.0.0,,,2023-10-21 08:00:37,2023-10-21 08:00:39,2.263s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 08:00:39,2023-10-21 08:00:40,0.802s,PASSED
+"if (applicantName == ""kiki"")",Chrome 118.0.0.0,,,2023-10-21 08:00:40,2023-10-21 08:00:40,0.004s,PASSED
+"else if (applicantName == ""raka"")",Chrome 118.0.0.0,,,2023-10-21 08:00:40,2023-10-21 08:00:42,2.676s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 08:00:42,2023-10-21 08:00:44,1.581s,PASSED
+,,,,,,,
+Test Cases/Applicant/TC_Applicant,Chrome 118.0.0.0,,,2023-10-21 08:00:44,2023-10-21 08:01:19,35.237s,FAILED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 08:00:44,2023-10-21 08:00:48,4.223s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 08:00:48,2023-10-21 08:01:10,22.028s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/span_Applicants""))",Chrome 118.0.0.0,,,2023-10-21 08:01:10,2023-10-21 08:01:13,2.490s,PASSED
+"setText(findTestObject(""Object Repository/Applicant/Page_Admin Page/input_Filter_search""), applicantName)",Chrome 118.0.0.0,,,2023-10-21 08:01:13,2023-10-21 08:01:15,2.135s,PASSED
+"click(findTestObject(""Object Repository/Applicant/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 08:01:15,2023-10-21 08:01:16,0.703s,PASSED
+"if (applicantName == ""kiki"")",Chrome 118.0.0.0,,,2023-10-21 08:01:16,2023-10-21 08:01:16,0.001s,PASSED
+"else if (applicantName == ""raka"")",Chrome 118.0.0.0,,,2023-10-21 08:01:16,2023-10-21 08:01:16,0.003s,PASSED
+"else if (applicantName == ""raka"")",Chrome 118.0.0.0,,,2023-10-21 08:01:16,2023-10-21 08:01:16,0.001s,PASSED
+else,Chrome 118.0.0.0,,,2023-10-21 08:01:16,2023-10-21 08:01:18,2.258s,FAILED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 08:01:18,2023-10-21 08:01:19,1.336s,PASSED

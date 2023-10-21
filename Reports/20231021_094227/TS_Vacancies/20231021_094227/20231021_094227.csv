@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Vacancies,Chrome 118.0.0.0,,,2023-10-21 09:42:51,2023-10-21 09:44:57,2m - 6.417s,PASSED
+,,,,,,,
+Test Cases/Vacancies/TC_Vacancies,Chrome 118.0.0.0,,,2023-10-21 09:42:53,2023-10-21 09:44:04,1m - 10.808s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 09:42:57,2023-10-21 09:43:15,18.175s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 09:43:15,2023-10-21 09:43:47,32.072s,PASSED
+"click(findTestObject(""Object Repository/Vacancies/Page_Admin Page/a_Vacancies""))",Chrome 118.0.0.0,,,2023-10-21 09:43:47,2023-10-21 09:43:51,3.742s,PASSED
+"setText(findTestObject(""Object Repository/Vacancies/Page_Admin Page/input_Filter_search""), vacancy)",Chrome 118.0.0.0,,,2023-10-21 09:43:51,2023-10-21 09:43:53,1.962s,PASSED
+"click(findTestObject(""Object Repository/Vacancies/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 09:43:53,2023-10-21 09:43:54,1.493s,PASSED
+"if (vacancy == ""purchasing"")",Chrome 118.0.0.0,,,2023-10-21 09:43:54,2023-10-21 09:44:02,7.553s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 09:44:02,2023-10-21 09:44:04,2.269s,PASSED
+,,,,,,,
+Test Cases/Vacancies/TC_Vacancies,Chrome 118.0.0.0,,,2023-10-21 09:44:04,2023-10-21 09:44:57,53.085s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-21 09:44:05,2023-10-21 09:44:11,6.685s,PASSED
+"callTestCase(findTestCase(""Login/Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-21 09:44:11,2023-10-21 09:44:41,29.882s,PASSED
+"click(findTestObject(""Object Repository/Vacancies/Page_Admin Page/a_Vacancies""))",Chrome 118.0.0.0,,,2023-10-21 09:44:41,2023-10-21 09:44:45,3.908s,PASSED
+"setText(findTestObject(""Object Repository/Vacancies/Page_Admin Page/input_Filter_search""), vacancy)",Chrome 118.0.0.0,,,2023-10-21 09:44:45,2023-10-21 09:44:47,1.909s,PASSED
+"click(findTestObject(""Object Repository/Vacancies/Page_Admin Page/button_Search""))",Chrome 118.0.0.0,,,2023-10-21 09:44:47,2023-10-21 09:44:48,0.843s,PASSED
+"if (vacancy == ""purchasing"")",Chrome 118.0.0.0,,,2023-10-21 09:44:48,2023-10-21 09:44:48,0.002s,PASSED
+"else if (vacancy == ""accounting"")",Chrome 118.0.0.0,,,2023-10-21 09:44:48,2023-10-21 09:44:54,6.012s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-21 09:44:54,2023-10-21 09:44:57,3.671s,PASSED

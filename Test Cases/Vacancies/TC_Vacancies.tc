@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Vacancies</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d0b6b6a-aa6d-4815-9665-36cb39f0313d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3abef1b7-e41e-4fd3-aba2-050c98556b04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3abef1b7-e41e-4fd3-aba2-050c98556b04</id>
+      <masked>false</masked>
+      <name>vacancy</name>
+   </variable>
+</TestCaseEntity>
